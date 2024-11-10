@@ -1,0 +1,54 @@
+/* Before Optimization */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* After Optimization */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    /* Additional optimized styles go here */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main-content {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color:black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
